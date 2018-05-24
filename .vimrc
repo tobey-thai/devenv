@@ -1,14 +1,13 @@
 colorscheme torte
 
 " Tabs
-set expandtab
-set tabstop=4
-set shiftwidth=4
+set expandtab smarttab tabstop=4 shiftwidth=4 softtabstop=0
 
 set showmode
 set ruler
 set relativenumber
 "set nu
+set wrap linebreak nolist
 
 " Column control
 set textwidth=80
