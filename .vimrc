@@ -31,3 +31,9 @@ au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set expandtab
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set tabstop=4
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=4
 "set tags+=/home/linux/ieng6/cs120f/t5thai/tags
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave
+  autocmd BufLeave,FocusLost,InsertEnter
+augroup END
