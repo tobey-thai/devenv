@@ -6,7 +6,7 @@ set expandtab smarttab tabstop=4 shiftwidth=4 softtabstop=0
 set showmode
 set ruler
 set relativenumber
-"set nu
+set nu
 set wrap linebreak nolist
 
 " Column control
