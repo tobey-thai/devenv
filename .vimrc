@@ -1,4 +1,4 @@
-colorscheme darkblue
+colorscheme slate
 
 " Tabs
 set expandtab smarttab tabstop=4 shiftwidth=4 softtabstop=0
