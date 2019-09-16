@@ -7,20 +7,24 @@ set showmode
 set ruler
 set relativenumber
 set nu
-set wrap linebreak nolist
+
+set nolist
 
 " Column control
 set textwidth=80
-set cc=80
+set cc=+0
 highlight ColorColumn ctermbg=5
-set breakindent
-set showbreak=\\\\\
+
+" Line wrapping
+set wrap linebreak
+set breakindent breakindentopt=min:40,shift:2
+let &showbreak='> '
 set synmaxcol=100
 
 set backspace=indent,eol,start
 
 set wildmenu
-set wildmode=full
+set wildmode=list
 
 au BufRead,BufNewFile *.s set noexpandtab
 au BufRead,BufNewFile *.s set shiftwidth=8
