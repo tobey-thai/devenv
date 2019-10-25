@@ -17,7 +17,7 @@ highlight ColorColumn ctermbg=5
 
 " Line wrapping
 set wrap linebreak
-set breakindent breakindentopt=min:40,shift:-2
+set breakindent breakindentopt=min:40,shift:2,sbr
 let &showbreak='> '
 set synmaxcol=100
 
