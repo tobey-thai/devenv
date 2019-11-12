@@ -8,6 +8,9 @@ set ruler
 set relativenumber
 set nu
 
+set modeline
+set modelines=5
+
 set nolist
 
 " Column control
