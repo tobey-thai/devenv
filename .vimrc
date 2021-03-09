@@ -29,6 +29,9 @@ set backspace=indent,eol,start
 set wildmenu
 set wildmode=list
 
+"set tags+=/home/linux/ieng6/cs120f/t5thai/tags
+
+" autocmd
 au BufRead,BufNewFile *.s set noexpandtab
 au BufRead,BufNewFile *.s set shiftwidth=8
 au BufRead,BufNewFile *.s set tabstop=8
@@ -36,4 +39,6 @@ au BufRead,BufNewFile *.s set tabstop=8
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set expandtab
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set tabstop=4
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=4
-"set tags+=/home/linux/ieng6/cs120f/t5thai/tags
+
+" Remove whitespace at EOL
+"au BufWritePre *.{c,h,java,hpp,cpp} %s/\s\+$//e
