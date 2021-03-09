@@ -37,8 +37,8 @@ au BufRead,BufNewFile *.s set shiftwidth=8
 au BufRead,BufNewFile *.s set tabstop=8
 
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set expandtab
-au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set tabstop=4
-au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=4
+au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set tabstop=2
+au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=2
 
 " Remove whitespace at EOL
 "au BufWritePre *.{c,h,java,hpp,cpp} %s/\s\+$//e
