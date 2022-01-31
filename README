@@ -1,0 +1,2 @@
+# Set symbolic link
+$HOME/.vimrc -> .vimrc

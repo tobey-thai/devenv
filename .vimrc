@@ -42,3 +42,5 @@ au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=2
 
 " Remove whitespace at EOL
 "au BufWritePre *.{c,h,java,hpp,cpp} %s/\s\+$//e
+
+set mouse=
