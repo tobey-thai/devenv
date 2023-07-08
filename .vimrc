@@ -42,6 +42,10 @@ au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=2
 
 au BufRead,BufNewFile *.tex set textwidth=0
 
+" Set k and j to move along displayed lines for txt files
+au BufRead,BufNewFile *.txt nnoremap k gk
+au BufRead,BufNewFile *.txt nnoremap j gj
+
 " Remove whitespace at EOL
 "au BufWritePre *.{c,h,java,hpp,cpp} %s/\s\+$//e
 
