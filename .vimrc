@@ -32,13 +32,11 @@ set wildmode=list
 "set tags+=/home/linux/ieng6/cs120f/t5thai/tags
 
 " autocmd
-au BufRead,BufNewFile *.s set noexpandtab
-au BufRead,BufNewFile *.s set shiftwidth=8
-au BufRead,BufNewFile *.s set tabstop=8
+au BufRead,BufNewFile *.s
+    \ set noexpandtab shiftwidth=8 tabstop=8
 
-au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set expandtab
-au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set tabstop=2
-au BufRead,BufNewFile *.{c,h,java,hpp,cpp} set shiftwidth=2
+au BufRead,BufNewFile *.{c,h,java,hpp,cpp,sh}
+    \ set expandtab tabstop=2 shiftwidth=2
 
 au BufRead,BufNewFile *.tex set textwidth=0
 
