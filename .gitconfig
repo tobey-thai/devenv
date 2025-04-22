@@ -1,0 +1,41 @@
+[core]
+    editor = vim
+[pull]
+    ff = only
+[submodule]
+    recurse = false
+[alias]
+    a = add
+    au = add --update
+    aup = add --update --patch
+    b = branch
+    c = commit
+    d = diff
+    f = fetch
+    l = log --graph --oneline --date-order
+    m = merge
+    o = checkout
+    s = status
+
+    amend = "! git commit --amend --date=\"$(date -R)\""
+    ba = branch --all
+    bal = branch --all --list
+    bd = branch --delete
+    cp = cherry-pick
+    cpa = cherry-pick --abort
+    cpc = cherry-pick --continue
+    ds = diff --staged
+    rs = restore
+    rss = restore --staged
+    rb = rebase
+    rba = rebase --abort
+    rbc = rebase --continue
+    rbi = rebase --interactive
+    rbs = rebase --skip
+    rl = reflog
+
+    subupdate = submodule update --remote --rebase
+[credential]
+    helper = cache --timeout 28800
+[include]
+    path = ./.gitconfig.local
