@@ -1,2 +1,3 @@
 # Set symbolic link
 $HOME/.vimrc -> .vimrc
+$HOME/.tmux.conf -> .tmux.conf
