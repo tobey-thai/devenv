@@ -1,3 +1,4 @@
 # Set symbolic link
+$HOME/.gitconfig -> .gitconfig
 $HOME/.vimrc -> .vimrc
 $HOME/.tmux.conf -> .tmux.conf
