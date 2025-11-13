@@ -1,4 +1,5 @@
 colorscheme slate
+"colorscheme elflord
 
 " Tabs
 set expandtab smarttab tabstop=4 shiftwidth=4 softtabstop=0
@@ -33,7 +34,7 @@ au BufRead,BufNewFile *.s
     \ set noexpandtab shiftwidth=8 tabstop=8
 
 au BufRead,BufNewFile *.{c,h,java,hpp,cpp,sh}
-    \ set expandtab tabstop=2 shiftwidth=2
+    \ set expandtab tabstop=4 shiftwidth=4
 
 au BufRead,BufNewFile *.tex set textwidth=0
 
