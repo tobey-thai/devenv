@@ -27,7 +27,7 @@ set synmaxcol=100
 set backspace=indent,eol,start
 
 set wildmenu
-set wildmode=list
+set wildmode=list:longest
 
 "set tags+=/home/linux/ieng6/cs120f/t5thai/tags
 
