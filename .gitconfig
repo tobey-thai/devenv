@@ -12,6 +12,7 @@
     c = commit
     d = diff
     f = fetch
+    fp = fetch --prune
     l = log --graph --oneline --date-order
     m = merge
     o = checkout
