@@ -37,5 +37,3 @@
     subupdate = submodule update --remote --rebase
 [credential]
     helper = cache --timeout 28800
-[include]
-    path = ./.gitconfig.local
