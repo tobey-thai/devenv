@@ -22,6 +22,7 @@
     ba = branch --all
     bal = branch --all --list
     bd = branch --delete
+    bvv = branch -vv
     cp = cherry-pick
     cpa = cherry-pick --abort
     cpc = cherry-pick --continue
@@ -35,6 +36,6 @@
     rbs = rebase --skip
     rl = reflog
 
-    subupdate = submodule update --remote --rebase
+    su = submodule update --remote --rebase
 [credential]
     helper = cache --timeout 28800
