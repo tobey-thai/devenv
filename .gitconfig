@@ -5,6 +5,7 @@
 [submodule]
     recurse = false
 [alias]
+    aliases = "! git config --get-regexp ^alias\\. | sed -e 's/\\(^alias\\)\\./\\1 = /'"
     a = add
     au = add --update
     aup = add --update --patch
@@ -20,8 +21,10 @@
 
     amend = "! git commit --amend --date=\"$(date -R)\""
     ba = branch --all
+    bac = branch --all --contains
     bal = branch --all --list
     bd = branch --delete
+    bdf = branch --delete --force
     bvv = branch -vv
     cp = cherry-pick
     cpa = cherry-pick --abort
