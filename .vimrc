@@ -12,7 +12,7 @@ set nu
 set nolist
 
 " Column control
-set textwidth=80
+"set textwidth=80
 set cc=+0
 highlight ColorColumn ctermbg=5
 
@@ -20,7 +20,7 @@ highlight ColorColumn ctermbg=5
 set wrap linebreak
 set breakindent breakindentopt=min:40,shift:2,sbr
 let &showbreak='> '
-set synmaxcol=100
+set synmaxcol=160
 
 set backspace=indent,eol,start
 
