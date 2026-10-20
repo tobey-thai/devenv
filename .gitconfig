@@ -40,5 +40,6 @@
     rl = reflog
 
     su = submodule update --remote --rebase
+    ss = submodule foreach git status
 [credential]
     helper = cache --timeout 28800
